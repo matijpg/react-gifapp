@@ -1,4 +1,4 @@
-## 💻 `gifapp`
+### 💻 `gifapp`
 
 <h2>App realizada con [Create React App](https://github.com/facebook/create-react-app).</h2>
 
@@ -14,6 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-#### `Demo`
+#### 🔗 `Demo`
 
-Probala! https://matijpg.github.io/react-gifapp/
+Probala! https://matijpg.github.io/react-gifapp/ 
