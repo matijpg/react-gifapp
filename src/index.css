@@ -1,0 +1,143 @@
+/* https://flatuicolors.com/palette/us */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+
+:root{
+   --colorPrimary:#6c5ce7;
+   --colorParagraph:#2d3436;
+}
+
+*,
+::after,
+::before{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+   /* padding: 5px;
+   padding-bottom: 0px; */
+   background-color: #fdfdfd;
+   /* margin-bottom: 0px; */
+}
+
+input{
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.39);
+   color:gray;
+   font-size: 1rem;
+   height: 35px;
+   padding:5px 0 5px 5px;
+   width: 100%;
+}
+
+input:active{
+   color:var(--colorPrimary);
+}
+
+p, h3, li{
+   color:var(--colorParagraph);
+}
+
+form, hr, ol {
+   margin:10px;
+}
+
+ol {
+   padding-top:15px;
+   flex-grow: 1;
+}
+
+ol h3 {
+   margin-bottom: 10px;
+}
+
+.flex-contain {
+   display:flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.logo{
+   color:var(--colorPrimary);
+   font-weight: 600;
+   font-size: calc(30px + 2vw);
+   margin:10px;
+   padding: 20px 0;
+   text-align: center;
+   width: auto;
+}
+
+.card-grid{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.card{
+   align-items: center;
+   border-radius: 8px;
+   border:1px solid var(--colorParagraph);
+   margin-bottom: 10px;
+   margin-right: 10px;
+   overflow: hidden;
+   text-align: center;
+   height: min-content;
+}
+
+.card img{
+  /* max-height: 200px; */
+  object-fit: fill;
+  width: 100%;
+}
+
+.card p {
+   color:var(--colorParagraph);
+   font-family: 'Poppins', sans-serif;
+   font-style: italic;
+   font-weight: 500;
+   padding:10px;
+}
+
+.me{
+   align-items: center;
+   background-color: var(--colorPrimary);
+   bottom: 0px;
+   display: flex;
+   height:50px;
+   justify-content: center;
+   margin: 0px;
+   width: 100%;
+   position: sticky;
+}
+
+.me p{
+   color:white;
+   font-size: 14px;
+   font-weight: 300;
+   
+}
+
+.me a{
+   font-weight: 600;
+   font-style:italic;
+   text-decoration: none;
+   color:var(--colorParagraph);
+   transition: color .5s ease-out;
+}
+
+.me a:hover{
+   color:white;
+}
+
+
+@media screen and (min-width: 768px){
+   
+   .card img{
+     max-height: 200px; 
+   }
+
+}
