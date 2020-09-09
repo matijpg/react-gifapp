@@ -16,4 +16,4 @@ You will also see any lint errors in the console.
 
 #### `Demo`
 
-Probala!
+Probala! https://matijpg.github.io/react-gifapp/
